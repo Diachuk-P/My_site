@@ -1,21 +1,50 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hello Bulma!</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
-  </head>
-  <body>
-  <section class="section">
-    <div class="container">
-      <h1 class="title">
-        Hiiii !!!!!!DD
-      </h1>
-      <p class="subtitle">
-        My first website with <strong>Bulma</strong>!
-      </p>
-    </div>
-  </section>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mortal Combat - премьера фильма 2021 </title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="stylesheet" href="assets/style/normalize.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+</head>
+<body>
+   <div class="fon" id="fon">
+        <header class="header">
+            <a href="#" class="logo">
+                <img src="assets/img/logo.svg" alt="Логотип: КиноПульс">
+            </a>
+            <a href="#" class="user">
+                <span class="user-name">Pasha</span>
+                <img src="assets/img/avatar.jpg" alt="" class="avatar">
+            </a>
+        </header>
+        <section class="film">
+            <img class="film__logo" src="assets/img/film-logo.png" alt="Mortal Combat">
+            <div class="film__tags">
+                <span class="film__date">2021</span>
+                <span class="film__genre">боевик, фэнтези, фантакстика</span>
+                <span class="film__country">USA</span>
+                <span class="film__age">18+</span>
+            </div>
+            <div class="film__description">
+                <p>Продолжение легендарного фильма из 90-х. <br> Предстоит по-настоящему смертельная битва, где останется только сильнейший</p>
+            </div>
+            <div class="film__buttons">
+                <button class="film__buttons-primery buttons"><span class="btn-text">Предзаказ фильма</span> </button>
+                <a data-fancybox href="https://www.youtube.com/watch?v=WLJL5DTvzXg" class="film__buttons-trailer buttons">
+                    <img src="assets/img/play.png" alt="">
+                    <span class="btn-text none">Смотреть онлайн</span> 
+                </a>
+            </div>
+        </section>
+   </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="assets/js/jquery.vide.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
 </html>
