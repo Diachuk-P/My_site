@@ -86,20 +86,61 @@ a{
     background-color: #EA6E20;
     margin-right: 10px;
 }
-
+.film__buttons-trailer span{
+padding-left: 10px;
+}
+.film__buttons-trailer a{
+    color: white;
+}
 .btn-text{
     padding: 0;
     margin: 0;
     vertical-align: text-bottom;
 }
+.btn-text a{
+    color: white;
+}
+.mail-data{
+    display: none;
+}
+/* .none{
+    display: none;
+}
+.p-none{
+ display: none;
+}
+.block{
+    display: block;
+} */
+/*Рассылка*/
+.fancybox-content{
+    background: #2F2F2F !important;
+}
+.mail-data{
+    color: white;
+    font-size: 25px;
+}
 
+.mail-data__input{
 
+    height: 40px;
+    font-size: 25px;
+}
+.mail-data__button{
+    padding: 6px 15px;
+     margin-left: 15%;
+    color: white;
+    border: none;
+    vertical-align: top;
+    font-size: 25px;
+    background-color:#EA6E20 ;
+}
 
 @media (max-width: 900px) {
     .fon{
        
         padding-bottom: 100px;
-        background: url(../img/fon.png) no-repeat bottom center / 350px;
+        background: url(assets/img/fon.png) no-repeat bottom center / 350px;
     }
     .film{
         padding-top: 2%;
