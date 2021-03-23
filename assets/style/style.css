@@ -139,8 +139,8 @@ padding-left: 10px;
 @media (max-width: 900px) {
     .fon{
        
-        padding-bottom: 100px;
-        background: url(assets/img/fon.png) no-repeat bottom center / 350px;
+        padding-bottom: 340px;
+        background: url(../img/fon.png) no-repeat bottom right / 350px;
     }
     .film{
         padding-top: 2%;
@@ -158,6 +158,7 @@ padding-left: 10px;
     .fon{
         padding-bottom: 350px;
         background-size: 300px;
+        background: url(../img/fon.png) no-repeat bottom center / 350px;
     }
     .film__logo{
         width: 100%;
